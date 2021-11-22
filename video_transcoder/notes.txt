@@ -1,0 +1,5 @@
+
+
+Docker üzerinde redis: docker container run --rm -p 7055:6379 -d  --name celery_demo_broker redis:alpine
+Celery: celery -A exam.celery worker --loglevel=info;
+
